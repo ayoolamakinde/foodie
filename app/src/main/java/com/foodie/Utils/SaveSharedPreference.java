@@ -8,7 +8,7 @@ import com.foodie.Utils.PreferencesUtility;
 
 public class SaveSharedPreference {
 
-    static SharedPreferences getPreferences(Context context) {
+    private static SharedPreferences getPreferences(Context context) {
         return PreferenceManager.getDefaultSharedPreferences(context);
     }
 
@@ -20,9 +20,8 @@ public class SaveSharedPreference {
     public static void setLoggedIn(Context context, boolean loggedIn) {
         SharedPreferences.Editor editor = getPreferences(context).edit();
         editor.putBoolean(PreferencesUtility.LOGGED_IN_PREF, loggedIn);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-            editor.apply();
-        }
+         editor.apply();
+
     }
 
     /**
