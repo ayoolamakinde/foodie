@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="@dimen/button_inset_vertical"
+    android:insetLeft="@dimen/button_inset_horizontal"
+    android:insetRight="@dimen/button_inset_horizontal"
+    android:insetTop="@dimen/button_inset_vertical">
+
+    <shape android:shape="rectangle">
+
+        <!-- corner -->
+        <corners android:radius="@dimen/button_curve" />
+
+        <!-- stroke -->
+        <stroke
+            android:width="@dimen/button_border"
+            android:color="@color/colorAccent" />
+
+        <!-- fill -->
+        <solid android:color="@color/colorButtonWhiteFocused" />
+
+    </shape>
+</inset>

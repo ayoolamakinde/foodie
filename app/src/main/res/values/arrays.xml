@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- congratulations contents -->
+    <array name="congratulations_message">
+        <item>You\'re a genius!!</item>
+        <item>You\'re the best thing since sliced bread!!
+        </item>
+        <item>We give you tools to earn money,\n keep money, and grow money.
+        </item>
+    </array>
+    <!-- failure contents -->
+    <array name="loss_message">
+        <item>Words are not for everyone, I guess!!</item>
+        <item>There's always a next time!!
+        </item>
+        <item>Well, now you know better!!</item>
+    </array>
+</resources>

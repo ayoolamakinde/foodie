@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">Foodie</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
     <string name="title_home">Home</string>
+    <string name="text_congrats">Congratulations!!</string>
+    <string name="fireworks_start">Fireworks starts</string>
+    <string name="fireworks_mid">Fireworks continues</string>
+    <string name="fireworks_end">Fireworks ends</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="restart_question">Do you want to restart?</string>
+    <string name="restart_question_content">Words are enlightening. You get to learn. Do you want to restart?</string>
+    <string name="hint_heading">Did you know?</string>
+    <string name="hint_body">%1$s</string>
 </resources>

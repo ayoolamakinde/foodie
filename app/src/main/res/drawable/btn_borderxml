@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="@dimen/button_inset_goal_manager"
+    android:insetLeft="@dimen/button_inset_goal_manager"
+    android:insetRight="@dimen/button_inset_goal_manager"
+    android:insetTop="@dimen/button_inset_goal_manager">
+
+    <shape android:shape="rectangle">
+
+        <!-- corner -->
+        <corners android:radius="@dimen/button_curve" />
+
+        <!-- stroke -->
+        <stroke
+            android:width="@dimen/button_inset_goal_manager"
+            android:color="@color/button_save_now" />
+
+        <!-- fill -->
+        <solid android:color="@color/button_save_now" />
+    </shape>
+</inset>

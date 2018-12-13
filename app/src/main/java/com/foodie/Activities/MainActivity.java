@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.foodie.R;
 
 public class MainActivity extends AppCompatActivity {
-
+//for commits: git add git commit -m "clean up" git push -u origin master
     private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
